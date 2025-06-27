@@ -1,17 +1,18 @@
 {
     "name": "tainy-v3",
     "version": "1.0.0",
-    "description": "Tainy V3 - A modern web application",
+    "description": "Tainy V3 - Tainy blog frontend pages",
     "scripts": {
         "dev": "vite --mode development"
     },
     "dependencies": {
-        "@types/node": "^24.0.3",
+        "vite-plugin-html": "^3.2.2",
         "vue": "^3.5.17",
         "vue-router": "^4.5.1"
     },
     "devDependencies": {
         "@tsconfig/node20": "^20.1.6",
+        "@types/node": "^24.0.3",
         "@vitejs/plugin-vue": "^5.2.4",
         "@vue/tsconfig": "^0.7.0",
         "typescript": "^5.8.3",

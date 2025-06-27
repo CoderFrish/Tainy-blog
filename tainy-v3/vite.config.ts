@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
     return {
         plugins: [vuePlugin(), createHtmlPlugin({
             minify: true,
+            entry: "/src/main.ts",
             inject: {
                 data: {
                     title: env.VITE_APP_TITLE
